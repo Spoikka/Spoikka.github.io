@@ -1,0 +1,46 @@
+body {
+  background-color: chocolate;
+  color: white;
+  font-family: monospace;
+}
+header h1 {
+  text-align: center;
+}
+
+table {
+  background-color: darkgreen;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+table, th, td {
+  border: 1px solid orange;
+}
+
+th {
+  background-color: darkorange;
+}
+
+td.select {
+  height: 100px;
+  width: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-size: large;
+}
+
+td.ex, td.descr {
+  width: 400px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: large;
+}
+
+div.right {
+  margin: 0 25px;
+}
+#as {
+  height: 140px;
+}

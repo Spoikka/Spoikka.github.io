@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles.css" rel ="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Common CSS Selectors</h1>
+    </header>
+    <main>
+      <table>
+        <tr>
+          <th><h2>Selector</h2></th>
+					<th><h2>Example</h2></th>  
+          <th><h2>Description</h2></th>  
+        </tr>
+				<tr>
+					<td class = "select"><h3>Element selector</h3></td>
+					<td class = "ex">p { 
+						<div class = "right">background-color: yellow;</div> 
+						}
+					</td>
+          <td class="descr">
+						Changes the properties of all
+						the elements with the	name of the selector.
+					</td>  
+        </tr>
+				<tr>
+        	<td class = "select"><h3>Multiple elem. selector</h3></td>
+					<td class = "ex">h1, h2, p { 
+						<div class = "right">text-align: center;</div> 
+						}
+					</td>
+          <td class="descr">
+						Changes the properties of all
+						the elements with the	name of the selector.
+					</td>     
+        </tr>
+				<tr>
+					<td class = "select"><h3>#id selector</h3></td>
+					<td class = "ex">
+						#dog { 
+						<div class = "right">background-color: purple;</div> 
+						}
+					</td>
+          <td class="descr"> 
+						Uses # followed by the specified id
+						to apply the styling rules to all elements with the
+						matching id.
+					</td>    
+        </tr>
+				<tr>
+					<td class = "select"><h3>.class selector</h3></td>
+					<td class = "ex">
+						li.roomy  { 
+						<div class = "right">margin: 2em;</div> 
+						}
+					</td>
+          <td class="descr">
+						It applies styling to all elements
+						with a specified class attribute.
+					</td>     
+        </tr>
+				<tr>
+					<td class = "select"><h3>Attribute selectors</h3></td>
+					<td class = "ex" id="as">
+						&lt;h2 id="title" class="magic" rel="friend"&gt;
+						David Wals&lt;/h2&gt;<br><br>
+						h2[rel="friend"] { 
+						<div class = "right">color: purple;</div> 
+						}
+					</td>
+          <td class="descr">
+						Using the CSS attribute selector you can
+						select this line based on that value of the
+						rel attribute.
+					</td>     
+        </tr>
+				<tr>
+					<td class = "select"><h3>Descendant selector</h3></td>
+					<td class = "ex">
+						div h1 { 
+						<div class = "right">background-color: purple;</div> 
+						}
+					</td>
+          <td class="descr"> 
+						The descendant selector is how you can apply styles to
+						all elements that are descendants of a specified element.
+					</td>    
+        </tr>
+				<tr>
+					<td class = "select"><h3>Child selector (combinator)</h3></td>
+					<td class = "ex">
+						div > h1 { 
+						<div class = "right">background-color: purple;</div> 
+						}
+					</td>
+          <td class="descr"> 
+						The child selector is another member of the combination
+						selectors family. It lets you select and apply styles to
+						all elements that are children of a specified element.
+					</td>    
+        </tr>
+				<tr>
+					<td class = "select"><h3>Adjacent and general sibling selectors</h3></td>
+					<td class = "ex">
+						div ~ p { 
+						<div class = "right">background-color: purple;</div> 
+						}
+					</td>
+          <td class="descr"> 
+						These two selectors both let you select and style siblings
+						of elements that have the same parent element.
+					</td>   
+        </tr>
+				<tr>
+					<td class = "select"><h3>Pseudo-classes</h3></td>
+					<td class = "ex">
+						div:hover { 
+						<div class = "right">background-color: purple;</div> 
+						}
+					</td>
+          <td class="descr"> 
+						Pseudo-classes are basically just a fancy name for defining
+						styles based on the state of specified elements.
+					</td>   
+        </tr>
+				<tr>
+					<td class = "select"><h3>Pseudo-elements</h3></td>
+					<td class = "ex" id="as">
+						/* The first line of every &lt;p&gt; element. */<br>
+						div:hover { 
+						<div class = "right">
+							color: blue;<br>
+							text-transform: uppercase;
+						</div> 
+						}
+					</td>
+          <td class="descr"> 
+						A CSS pseudo-element is a keyword added to a selector that
+						lets you style a specific part of the selected element(s).
+					</td>   
+        </tr>
+				<tr>
+					<td class = "select"><h3>Pseudo-elements</h3></td>
+					<td class = "ex" id="as">
+						li:nth-of-type(7) { 
+						<div class = "right">
+							color: purple;<br>
+						</div> 
+						} <br>
+						ul:nth-child(2) { 
+							<div class = "right">
+								color: purple;<br>
+							</div> 
+							}
+					</td>
+          <td class="descr"> 
+						The nth-of-type selector lets you select every element that
+						is a specified nth child of a specified type of it parent.
+						The :nth-child(n) selector matches all elements that are the
+						nth child, regardless of type, of their parents. 
+					</td>   
+        </tr>
+				<tr>
+					<td class = "select"><h3>The star selector *</h3></td>
+					<td class = "ex">
+						* { 
+						<div class = "right">
+							margin: 0; <br>   
+							padding: 0;
+						</div> 
+						}
+					</td>
+          <td class="descr"> 
+						A quick way to reset all browser default styles.
+					</td>   
+        </tr>
+      </table>
+    </main>
+  </body>
+
+
+</html>
