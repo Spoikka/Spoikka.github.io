@@ -73,16 +73,16 @@ body {
   width: 1200px;
   height: 600px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
 
 .main .locations .blocks {
   display: flex;
   justify-content: center;
 }
-.blocks, .locations .heading {
+.locations .blocks, .locations .heading {
   position: relative;
   bottom: 50px;  
 }
