@@ -75,19 +75,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
-.main .locations .extra-block {
+.main .locations .blocks {
   display: flex;
-  flex-direction: column;
-  align-content: center;
   justify-content: center;
-  position: relative;
-  bottom: 46px;
-  margin: 0 40px;
-  
 }
-.main .locations .block-location {
+.blocks, .locations .heading {
+  position: relative;
+  bottom: 50px;  
+}
+.locations .heading, .block-location {
+  margin-right: 20px
+}
+.block-location {
   display: block;
   background-color: black;
   opacity: 1;
