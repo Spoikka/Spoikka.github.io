@@ -88,7 +88,7 @@ body {
   bottom: 50px;  
 }
 .locations .heading, .block-location {
-  margin-right: 20px
+  margin-right: 20px;
 }
 .block-location {
   display: block;
@@ -104,23 +104,43 @@ body {
   margin-left: 20px;
 }
 
-@media only screen and (max-width: 400) {
+@media only screen and (max-width: 400px) {
   body {
     width: 413px;
+    font-size: 7px;
+  }
+  .container .nav {
+    display: none;
+  }
+  .main {
+    margin: 0 6.5px;
   }
   .main .banner {
     width: 400px;
     height: 265px;
+    background-size: cover;
   }
   .main .examples {
-    margin: 13px 330px;
+    margin: 13px 36px;
   }
   .main .locations {
     width: 400px;
     height: 200px;
+    background-size: cover;
   }
   .block-location {
     width: 100px;
+    padding: 6.5px 3px;
+  }
+  .locations .blocks, .locations .heading {
+    position: relative;
+    bottom: 16.5px;  
+  }
+  .locations .heading, .block-location {
+    margin-right: 6.5px;
+  }
+  .footer {
+    margin-left: 6.5px;
   }
 }
 
