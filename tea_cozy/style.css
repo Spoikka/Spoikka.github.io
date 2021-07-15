@@ -13,7 +13,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   height: 69px;
   border-bottom: 1px solid seashell;
 }
@@ -29,7 +28,8 @@ body {
 }
 
 .container .nav li {
-  padding-left: 10px;
+  margin-left: 0;
+  padding-left: 15px;
   text-decoration: underline;
 }
 .main {
@@ -65,7 +65,8 @@ body {
 }
 
 .img-examples figure {
-  margin: 10px 12px;
+  margin: 0;
+  padding: 10px 12px;
 }
 
 .main .locations {
