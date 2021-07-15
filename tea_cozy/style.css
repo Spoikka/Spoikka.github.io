@@ -109,6 +109,17 @@ body {
     width: 313px;
     font-size: 7px;
   }
+  .container{
+    height: 23px;
+  }
+  .container .logo {
+    padding: 0;
+  }
+  .container .logo img{
+    width: 39px;
+    height: 12.5px;
+    padding-top: 6px;
+  }
   .container .nav {
     display: none;
   }
@@ -122,6 +133,7 @@ body {
   }
   .main .examples {
     margin: 12px 30px;
+    font-size: 1.2em;
   }
   .main .locations {
     width: 300px;
