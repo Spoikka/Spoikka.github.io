@@ -104,5 +104,25 @@ body {
   margin-left: 20px;
 }
 
+@media only screen and (max-width: 400) {
+  body {
+    width: 413px;
+  }
+  .main .banner {
+    width: 400px;
+    height: 265px;
+  }
+  .main .examples {
+    margin: 13px 330px;
+  }
+  .main .locations {
+    width: 400px;
+    height: 200px;
+  }
+  .block-location {
+    width: 100px;
+  }
+}
+
 
 
